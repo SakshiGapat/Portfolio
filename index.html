@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sakshi Gapat Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <!-- < data-spy="scroll" data-target=".site-navbar-target" data-offset="300"> -->
+	  
+	  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Sakshi Gapat</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Education</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+            <li class="nav-item"><a href="#certificate-section" class="nav-link"><span>Certificates</span></a></li>
+			      <li class="nav-item"><a href="#achievements-section" class="nav-link"><span>Achievements</span></a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	 
+
+            <section id="home-section" class="hero">
+ 
+
+  <div class="profile-container">
+  <div class="profile-pic-wrapper">
+    <img src="images/about.jpeg" alt="Profile" class="profile-pic">
+  </div>
+  <h1 class="name">Sakshi Gapat</h1>
+ <div class="typing-container">
+  <p id="typing-animation" class="typing-text"></p>
+</div>
+
+  <div class="button-group">
+    <a href="https://www.linkedin.com/in/sakshi-gapat-bba67627a/" target="_blank" class="btn linkedin">LinkedIn</a>
+    <a href="https://github.com/SakshiGapat" target="_blank" class="btn github">GitHub</a>
+  </div>
+</div>
+
+</section>
+
+
+	<script>
+  const typingAnimationElement = document.getElementById('typing-animation');
+  const typingTexts = ['Computer Engineer', 'Web Developer', 'Java Enthusiast', 'Full Stack Developer'];
+  let typingIndex = 0, charIndex = 0;
+
+  function type() {
+    if (charIndex < typingTexts[typingIndex].length) {
+      typingAnimationElement.textContent += typingTexts[typingIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, 150);
+    } else {
+      setTimeout(erase, 2000);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typingAnimationElement.textContent = typingTexts[typingIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, 100);
+    } else {
+      typingIndex = (typingIndex + 1) % typingTexts.length;
+      setTimeout(type, 500);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(type, 1000);
+  });
+</script>
+
+
+
+						<br>
+						<br>
+			  
+
+
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+<section id="about-section">
+	
+  <h2 class="section-title">About Me</h2>
+  <p class="about-text">
+    Hello! I'm Sakshi, a self-motivated Computer Engineering student with experience in Java and Web development. Proven ability to work on innovative tech projects, including IoT and AI-integrated platforms. Passionate about using technology to solve real-world problems and enhance user experience through scalable and intelligent applications.
+  </p>
+
+  <h2 class="section-title">Skills & Technologies</h2>
+  <p class="section-subtitle">
+    <!-- A comprehensive toolkit for building modern, scalable applications -->
+  </p>
+
+  
+
+  <div class="skills-container">
+    <div class="skill-card">
+      <div class="skill-icon blue"></div>
+      <h3>Languages</h3>
+      <div class="tags"><span>Java</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon green"></div>
+      <h3>Frontend</h3>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ReactJS</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon pink"></div>
+      <h3>Backend</h3>
+      <div class="tags"><span>Node.js</span><span>Express.js</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon purple"></div>
+      <h3>Databases</h3>
+      <div class="tags"><span>MongoDB</span><span>MySQL</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon orange"></div>
+      <h3>Tools & IDE's</h3>
+      <div class="tags"><span>VS Code</span><span>GitHub</span><span>Postman</span><span>Raspbian OS</span><span>Aurdino UNO</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="experience">
+  <h2 class="section-title">Experience</h2>
+  <div class="experience-container">
+    <div class="experience-card">
+
+      <!-- DATE TO TOP-RIGHT -->
+      <div class="experience-header">
+        <h2 class="company">Edunet Foundation (<span>SAP</span>)</h2>
+        <span class="experience-date-text">January 2025 – April 2025</span>
+      </div>
+
+      <h4>Intern</h4>
+      <ul>
+        <li>Completed training in AI, ML, IoT, and Data Science with hands-on projects.</li>
+        <li>Worked on an IoT-based assistive device and 3+ mini projects like sign language recognition and smart brightness control.</li>
+        <li>Gained practical exposure to real-world applications and enhanced technical and communication skills.</li>
+      </ul>
+
+     
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<div class="row">
+  <!-- <h2 class="section-title">Education</h2> -->
+</div>
+<br>
+<section class="ftco-section ftco-no-pb" id="resume-section">
+
+  <!-- Centered Heading -->
+  <div class="row justify-content-center">
+    <div class="col-md-12 text-center">
+      <h2 class="section-title">Education</h2>
+    </div>
+  </div>
+
+  <!-- Education Cards -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="resume-wrap">
+    <div class="date-wrapper">
+  <span class="date">2022–2026</span>
+</div>
+  <h2>Bachelor of Engineering</h2>
+        <span class="position">Trinity College of Engineering and Research, Pune</span>
+        <p class="mt-4">CGPA : 8.76</p>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="resume-wrap">
+          <div class="date-wrapper">
+  <span class="date">2021–2022</span>
+</div>
+        <h2>Higher Secondary Education(Science Stream)</h2>
+        <span class="position">Karmveer Mamasaheb Jagdale Mahavidhyalay, Washi</span>
+        <p class="mt-4">Score: 61.50%</p>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="resume-wrap">
+         <div class="date-wrapper">
+  <span class="date">2019–2020</span>
+</div>
+        <h2>Secondary School Certificate (SSC)</h2>
+        <span class="position">Shrimati Premalatai Chavan Kanyashala, Karad</span>
+        <p class="mt-4">Score: 90.60%</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+	
+
+    <section class="ftco-section" id="project-section">
+   <div class="container">
+  <!-- Section Title -->
+  <div class="col-md-12 text-center">
+    <h2 class="section-title">Projects</h2>
+  </div>
+
+  <!-- Row 1 -->
+  <div class="row d-flex">
+
+     <div class="col-md-4 d-flex ftco-animate">
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('images/Smart_stick.jpeg');"></div>
+        <h3 class="project-title">AI-Driven Smart Stick</h3>
+        <p class="project-description">Developed a Smart Blind Stick using IoT and AI that provides obstacle detection, GPS tracking, voice alerts, and emergency SMS functionality. Integrated a React-Node.js web dashboard and Google Assistant for real-time monitoring and home automation.</p>
+        <a href="https://github.com/SakshiGapat/AI-Driven-Smart-Stick.git" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex ftco-animate">
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('images/Campus_Auto_Connect.jpeg');"></div>
+        <h3 class="project-title">Campus Auto Connect</h3>
+        <p class="project-description">A platform for students to book auto-rickshaws between college and various locations, ensuring safe and timely travel.</p>
+        <a href="https://github.com/SakshiGapat/Campus-Auto-Connect.git" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+   
+
+<div class="col-md-4 d-flex ftco-animate">
+  <div class="project-card">
+    <!-- Add special class only here -->
+    <div class="project-image project-image-vertical" style="background-image: url('images/Expense.png');"></div>
+    <h3 class="project-title">Expense Tracker Website</h3>
+    <p class="project-description">The website gives the overview about our expenses, how we spend our expenses.</p>
+    <a href="https://github.com/SakshiGapat/Expense-Tracker-Website.git" class="project-link" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+
+  <!-- Row 2 -->
+  <div class="row d-flex mt-4">
+    <div class="col-md-4 d-flex ftco-animate">
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('images/colorpalettegenerator.png');"></div>
+        <h3 class="project-title">Colour Palette Generator</h3>
+        <p class="project-description">A color palette generator can generate the color with the color code as we want for implementing the color.</p>
+        <a href="https://github.com/SakshiGapat/Colour-Palette-Generator.git" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div> 
+
+    <!-- <div class="col-md-4 d-flex ftco-animate">
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('images/proj_5.png');"></div>
+        <h3 class="project-title">Tic-Tac-Toe Game</h3>
+        <p class="project-description">Interactive Tic-Tac-Toe with dark/light mode, animated winning logic & more.</p>
+        <a href="https://github.com/Vaishnavi-Patekar/Tic-Tac-Toe-Game.git" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div> -->
+
+     <!-- <div class="col-md-4 d-flex ftco-animate">
+      <div class="project-card">
+        <div class="project-image" style="background-image: url('images/proj_6.png');"></div>
+        <h3 class="project-title">Rock Paper Scissors Game</h3>
+        <p class="project-description">A fun Rock-Paper-Scissors game built with HTML, CSS & JS, featuring player vs computer mode and light/dark theme toggle.</p>
+        <a href="https://github.com/Vaishnavi-Patekar/Rock-Paper-Scissors-Game.git" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div> -->
+ 
+  </div>
+</div>
+
+    </section>
+ 
+                   
+
+    <section class="ftco-section" id="certificate-section"> 
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-12 text-center">
+    <h2 class="section-title">Certificates</h2>
+  </div>
+    </div>
+
+    <div class="row">
+      <!-- Certificate Card -->
+   
+  <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/Java.jpeg');"></div>
+  <h3 class="certificate-title">Java Course – Udemy</h3>
+  <p class="certificate-description">
+  This certificate demonstrates my understanding of Java programming concepts and object-oriented development.
+  </p>
+  <a href="images/Java.jpeg" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div>
+
+  <!-- <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/certificate/CDAC\ AR\ VR\ Certificate.png');"></div>
+  <h3 class="certificate-title">Augmented & Virtual Reality Bootcamp – CDAC</h3>
+  <p class="certificate-description">
+ This certificate acknowledges my participation in a bootcamp focused on AR and VR fundamentals and applications.
+  </p>
+  <a href="images/certificate/CDAC AR VR Certificate.png" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div> -->
+
+
+  
+  <!-- <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/certificate/Accenture\ Data\ Analyst\ Internship.png');"></div>
+  <h3 class="certificate-title">Accenture North America Data Analytics and Visualization</h3>
+  <p class="certificate-description">
+ This certificate demonstrates my proficiency in data analysis, visualization, and business reporting
+  </p>
+  <a href="images/certificate/Accenture Data Analyst Internship.png" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div> -->
+
+
+  <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/Sapfinalist.jpeg');"></div>
+  <h3 class="certificate-title">Code Unnati Innovation Marathon 3.0 – Finalist</h3>
+  <p class="certificate-description">
+ Recognized as a finalist for developing innovative technology solutions at SAP’s Code Unnati Hackathon.
+  </p>
+  <a href="images/Sapfinalist.jpeg" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div>
+
+    
+ <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/winner.jpeg');"></div>
+  <h3 class="certificate-title">ISTE Prototype Making Competition – Winner</h3>
+  <p class="certificate-description">
+ Awarded for building a working prototype under time constraints, showcasing design thinking and problem-solving.
+  </p>
+  <a href="images/winner.jpeg" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div>
+
+       <!-- <div class="col-md-4">
+      <div class="certificate-card">
+  <div class="certificate-image" style="background-image: url('images/certificate/IBM\ Certificate.png');"></div>
+  <h3 class="certificate-title">IBM Cyber Security Certificate – IBM Skills Build</h3>
+  <p class="certificate-description">
+ This certificate validates my skills in data science, including data analysis, machine learning, and Python programming.
+  </p>
+  <a href="images/certificate/IBM Certificate.png" class="certificate-link" target="_blank">View Certificate</a>
+</div>
+</div> -->
+      
+       
+    
+
+        <!-- <div class="col-md-6 col-lg-4 ftco-animate">
+        <div class="certificate-card">
+          <img src="images/certificate/Research Paper.png" alt="AR VR Bootcamp Certificate">
+          <h3>Research Paper – Enhancing Healthcare with Predictive Analytics Using Machine Learning Model</h3>
+          <p>This certificate acknowledges the successful publication of a research paper focused on predictive healthcare analytics using machine learning models for risk detection and early intervention.</p>
+          <a href="images/certificate/Research Paper.png" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div> -->
+
+       
+   
+    </div>
+  </div>
+</section>
+
+
+	<section class="ftco-section" id="achievements-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Achievements</h1>
+            <h2 class="mb-4">Achievements</h2>
+          
+          </div>
+        </div>
+
+		    <div class="achievement-card">
+            <h3>🏅 Finalist – Code Unnati Innovation Marathon 3.0</h3>
+            <p>Selected as a finalist for building an innovative solution in a national-level among 160 projects and presented at GTU, Ahmedabad.</p>
+   
+            <a href="images/Sapfinalist.jpeg" target="_blank">View Certificate</a>
+        </div>
+
+		      <div class="achievement-card">
+            <h3>🏆 Winner – ISTE Prototype Making Competition</h3>
+            <p>Recognized for presenting and building a working tech prototype within the given time limit and problem statement.</p>
+   
+            <a href="images/winner.jpeg" target="_blank">View Certificate</a>
+        </div>
+
+		  <div class="achievement-card">
+            <h3>📄 Research Paper Published – IJARESM 2024</h3>
+            <p>Published a research paper titled "Developement of IoT-based Technology in Healthcare" in IJARESM Journal.</p>
+           <div class="achievement-buttons">
+                <a href="images/Miss.Sakshi Gapat .pdf" target="_blank">View Paper</a><br>
+                <a href="images/paper.jpeg" target="_blank">View Certificate</a>
+           </div>
+        </div>
+		
+		</div>
+		</section>
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+<h2 class="section-title">Contact Me</h2>
+
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Pune, Maharashtra</p>
+	          </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">9689050504</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">sakshigapat2004@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="images/Sakshi Gapat_Resume.pdf">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+		
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://github.com/SakshiGapat"><span class="icon-github"></span></a></li>
+					  <li class="ftco-animate"><a href=" https://www.linkedin.com/in/sakshi-gapat-bba67627a/"><span class="icon-linkedin"></span></a></li>  
+					 
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> © 2025 Sakshi Gapat. All rights reserved. <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Sakshi</a>
+	</p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+   
+
+  </body>
+</html>
